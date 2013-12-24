@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'intro_inlineregular';
+    src: url('../fonts/intro_inline-webfont.eot');
+    src: url('../fonts/intro_inline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/intro_inline-webfont.woff') format('woff'),
+         url('../fonts/intro_inline-webfont.ttf') format('truetype'),
+         url('../fonts/intro_inline-webfont.svg#intro_inlineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'intro_regular';
+    src: url('../fonts/intro-webfont.eot');
+    src: url('../fonts/intro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/intro-webfont.woff') format('woff'),
+         url('../fonts/intro-webfont.ttf') format('truetype'),
+         url('../fonts/intro-webfont.svg#intro_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'architypefull_rased';
+    src: url('../fonts/architype_full_3d-webfont.eot');
+    src: url('../fonts/architype_full_3d-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/architype_full_3d-webfont.woff') format('woff'),
+         url('../fonts/architype_full_3d-webfont.ttf') format('truetype'),
+         url('../fonts/architype_full_3d-webfont.svg#architypefull_rased') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'architypefull_lines';
+    src: url('../fonts/architype_full_lines-webfont.eot');
+    src: url('../fonts/architype_full_lines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/architype_full_lines-webfont.woff') format('woff'),
+         url('../fonts/architype_full_lines-webfont.ttf') format('truetype'),
+         url('../fonts/architype_full_lines-webfont.svg#architypefull_lines') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mv_boliregular';
+    src: url('../fonts/mvboli-webfont.eot');
+    src: url('../fonts/mvboli-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mvboli-webfont.woff') format('woff'),
+         url('../fonts/mvboli-webfont.ttf') format('truetype'),
+         url('../fonts/mvboli-webfont.svg#mv_boliregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/*Icon Fonts*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?40413708');
+  src: url('../fonts/fontello.eot?40413708#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?40413708') format('woff'),
+       url('../fonts/fontello.ttf?40413708') format('truetype'),
+       url('../fonts/fontello.svg?40413708#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?40413708#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); 
+}
+ 
+.icon-mail:before { content: '\e801'; } /* 'î ' */
+.icon-lightbulb:before { content: '\e804'; } /* 'î „' */
+.icon-code:before { content: '\e803'; } /* 'î ƒ' */
+.icon-twitter:before { content: '\e802'; } /* 'î ‚' */
+.icon-palette:before { content: '\e806'; } /* 'î †' */
+.icon-mobile:before { content: '\e800'; } /* 'î €' */
+.icon-rocket:before { content: '\e805'; } /* 'î …' */

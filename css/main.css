@@ -1,0 +1,553 @@
+html{font-size:100%;}
+body{
+    padding:0;
+    margin:0px;
+    line-height:normal;
+    font-family:"lucida sans";
+    background-color:#222;
+}
+
+.temp{background-color: #222; z-index:1000;}
+.temp h4{
+    font-weight:normal;
+    line-height:1.5;
+    color: #fff;
+    
+}
+
+.container-fluid{padding:0px;}
+.row-fluid{max-width:1000px; margin:0 auto}
+
+.header{
+    position:fixed;
+    width:100%;
+    z-index:5000;
+    background-color:#222;
+    opacity:0;
+}
+
+section.home{
+    background:  url(../img/circles.png) fixed center 90px no-repeat, url(../img/bg.jpg) fixed 0 0 repeat ;
+    text-align:center;
+    padding-top:40px;
+    min-height:700px;
+    z-index:10;
+    width:100%;
+}
+
+.hero-text{ position:fixed; margin:0 auto; width:1000px; top:60px;}
+
+section.home span{
+    display:block;
+    padding:15px 0;
+    background: transparent url(../img/dotsbg.png) 0 center repeat-x;
+    width:430px;
+    margin:0 auto;    
+    
+}
+
+section.home span i{
+    font-family:georgia, arial, tahoma;
+    font-style:italic;
+    font-weight:normal;
+/*    font-size:18px;*/
+    font-size: 1.2rem;
+    color:#999;
+    padding:0px 15px;
+    background:url(../img/bg.jpg) 0 0 repeat;
+}
+
+section.home span:first-child{
+    background-image:none;
+}
+
+section.home span:last-child{
+    width:500px;
+    background: none;
+    display:none
+}
+
+section.home h1, .header h1{
+    font-family: intro_inlineregular, intro_regular, arial;
+    /*font-size:78px;*/
+    font-size:5rem;
+    color:#e96151;
+    font-weight:normal;
+    padding:0;
+    margin:0;
+    line-height:60px;     
+    text-shadow: 1px 1px 1px #000;
+}
+
+.header h1{
+    font-size:3.5rem;
+    text-align:center;
+    padding:10px 0;
+    text-shadow:none
+}
+
+
+section.home h2{
+     font-family: 'architypefull_lines';
+     /*font-size:172px;*/
+     font-size:11rem;
+     padding:0px !important;
+     margin:0px;
+    color:#fff;
+    font-weight:normal;
+    background: rgba(47,47,47,0.3) url(../img/boxpat.png) 0 5% repeat;
+    line-height:150px;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    animation-delay: 1s;
+   
+}
+section.home h3{
+    font-family: intro_inlineregular, intro_regular, arial;
+    /*font-size:60px;*/
+    font-size:4rem;
+    font-weight:normal;
+    color:#65c4a9;
+    padding:0;
+    padding-bottom:30px;
+    margin:0;
+    line-height:60px;
+}
+
+div.devices{
+    text-align:center;
+    margin-bottom:-10px;
+    margin-top:450px;
+}
+div.devices.left{text-align:left}
+
+.box{
+    background: transparent url(../img/boxpat.png) 0 0 repeat;
+}
+.box.letstalk{
+    background-color:#E95A49;
+    padding:30px 0 50px 0;
+    z-index:500 !important;
+    position:relative;
+}
+section.letstalk h3{
+    font-family:intro_regular, arial;
+    text-align:right;
+    color:#fff;
+    /*font-size:30px;*/
+    font-size: 1.8rem;
+    font-weight:normal;
+    padding:0;
+    margin:0;
+}
+
+section.letstalk .process h2{ 
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family: intro_inlineregular, intro_regular, arial;
+	font-size:2.3rem;
+	color:#fff;	
+	text-align:center
+}
+
+section.letstalk .process h2 i{
+	color:#F0B56F; 
+	display:block; 
+	text-align:center; 
+	font-size:4rem;
+	background-color:#ed4d3b;
+	border-radius:50%;
+	width:94px;
+	height:84px;
+	padding-top:8px;
+	margin:0px auto 15px;
+	border:5px solid rgba(0,0,0,0.1);
+	}
+
+section.letstalk .process p{
+	font-family:"lucida sans", arial, sans-serif;
+	font-size:1.2rem;
+	line-height:1.5;
+	padding:0;
+	text-align:center
+}
+
+section.letstalk p{
+    font-family: 'mv_boliregular';
+    padding:0px 10px 10px 10px;
+    font-size:1.5rem;
+    color:#2f2f2f;
+    text-align:center;
+    }
+
+section.letstalk button.btn{
+    border:none;
+background-color:#222;
+    color:#fff;
+    text-align:center;
+    padding:10px 20px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-family:calibri, arial, verdana;
+/*    font-size:20px;*/
+    font-size: 1.2rem;
+    font-weight:normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0px 0px 2px #000;
+    -webkit-box-shadow: 0px 0px 2px #000 ;
+    -ms-box-shadow: ;
+    -o-box-shadow: ;
+    box-shadow: ;
+    margin:2px auto;
+    display:inline-block;
+}
+
+.box.whoweare{
+    background-color:#4d3852;
+    padding:30px 0 50px 0;
+}
+
+.box.whoweare h3{
+    text-align:center;
+    color:#da5b4c;
+    font-size:2.5rem;
+    font-family:intro_regular, arial;    
+    font-weight:normal
+}
+ul.heros{
+    list-style:none;
+    margin:0 auto;
+    width:auto;
+    text-align:center;
+    padding:0;
+}
+ul.heros li{
+    width:150px;
+    background-color:#d1ccd3;
+    margin:4px;
+    display:inline-block;
+}
+
+ul.heros li div.photo{
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    margin:15px auto 5px auto; 
+    background-color:#fff;
+    border:1px solid #939192;
+}
+ul.heros li div.photo > img{
+     -webkit-border-radius:100em;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.box.whoweare p{
+    font-family: 'mv_boliregular';
+    padding:10px 50px;
+    font-size:1.5rem;
+    color:#fff;
+    text-align:center;
+}
+ul.heros li span{
+    font-family:"Lucida sans",sans-serif;
+    font-size:14px;
+    color:#939192;
+    display:block;
+    padding:5px 0;
+}
+
+.box.pricing{
+   background-color: #fff;
+    padding:30px 0 50px 0;
+    }
+
+.box.pricing h3{
+    text-align:center;
+    color:#4D3852;
+/*    font-size:36px;*/
+    font-size: 2.5rem;
+    font-family:intro_regular, arial;    
+    font-weight:normal
+}
+
+div.pricing{
+    margin-top:50px;
+}
+
+div.pricing .basic, div.pricing .professional, div.pricing .alacarte{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    width:333px;
+    background-color:#88fade;
+    height:400px;
+    float:left;
+    padding:20px;
+    border:1px solid #fff;
+}
+
+div.pricing .professional{
+    background-color: #15bfb2;
+    margin-top:-40px;
+    height: 480px;
+    padding-top:40px
+}
+
+div.pricing h4{
+    font-family:"intro_regular";
+    font-size:2.2rem;
+    font-weight:normal;
+    color:#2f2f2f;
+    text-align:center;
+    margin:0;
+    padding:15px 0;
+}
+
+div.pricing .professional h4{color:#fff;}
+
+div.pricing span{
+    font-family:"lucida sans";
+    color:#1f6d0d;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    display:block;
+}
+
+
+div.pricing em{
+    display:block;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-style:normal;
+    font-family:"lucida sans";
+}
+
+div.pricing hr{
+    border-top:1px solid rgba(0,0,0,0.3);
+    border-bottom:1px solid rgba(0,0,0,0);
+}
+
+
+div.pricing ul{
+    list-style:none;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+
+div.pricing ul li{
+    padding:10px;
+    font-family:"lucida sans";
+    font-size:1rem;    
+}
+
+
+div.pricing p, p.note{
+    font-family:"lucida sans";
+    color:#666;
+    line-height:1.3;
+}
+
+.box.form{
+    padding:60px 0 50px 0;
+     background-color:#FFF7C0;
+}
+
+.form .details h3{
+      font-family: 'architypefull_lines';
+     /*font-size:172px;*/
+     font-size:5rem;
+     font-weight:normal;
+     padding:0;
+     margin:0;
+     margin-bottom:15px;
+     text-align:left;
+     line-height:1.5;
+     display:none;
+}
+
+.form dl dt, .form dl dd{ 
+	display:block;
+	float:left;
+	padding:5px;
+}
+
+.form ul.info{list-style:none; margin:0; padding:0}
+.form ul.info li{padding:10px; font-weight:bold; font-size:1.6rem}
+.form ul.info li i{color:#E15E4E;}
+
+section.form h3{text-align:right;font-size:1.8rem; margin:0; padding:0;}  
+
+hr{
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-bottom:1px solid rgba(0,0,0,0);
+	background-color:transparent
+}
+
+/* responsive */
+
+@media screen and (max-width:768px){
+    html{
+        font-size:90%;
+    }
+    
+    .row-fluid{
+        max-width:none
+    }
+    
+    .hero-text{
+        width:100%;
+    }
+    
+    section.home span{
+        width:330px;
+    }
+    
+    .span12.devices img:first-child{display:none}
+    
+    
+    section.letstalk p{
+        text-align:center;
+        padding: 10px 50px;
+    }
+    
+    section.letstalk h3{
+        text-align:center;
+        line-height:2.5rem;
+    }
+    section.letstalk button.btn{
+        display:block;
+        margin:10px auto;
+    }
+        section.letstalk button.btn.skype, section.letstalk button.btn.twitter{
+            display:none;
+          }
+    
+    div.pricing{
+        width:95%;
+        margin:50px auto;
+    }
+    
+    div.pricing .basic, div.pricing .professional, div.pricing .alacarte{
+        width:33%;
+        height:auto;
+        min-height:400px;
+    }
+    
+       div.professional ul li{
+           color:#fff
+       }
+       
+       p.note{padding-left:20px}
+       
+      section.form h3{padding:0 25px; text-align:center; line-height:1.5;}  
+    section.form .details h3{font-size:8rem}
+    section.form .details ul li{ text-align:center; font-size:2rem}  
+    
+}
+
+
+/* Mobile landscape 480px */
+
+
+@media screen and (max-width:480px){
+    
+    html{font-size:65%}
+    .header h1{padding:0;}
+    section.home h2{
+        line-height:115px;
+    }
+    section.home span{padding:0}
+    
+    section.home {
+        padding-top:0;
+        min-height:200px;
+    }
+    
+    .hero-text{top:10px}
+    .devices{display:none}
+    
+    ul.heros li{background-color:transparent}
+    ul.heros li div.photo > img {
+    	box-shadow: 0px 0px 0px 5px #ccc;
+    }
+    
+    div.pricing .basic, div.pricing .professional, div.pricing .alacarte{
+    	float:none;
+    	width:100%;
+    	min-height:30px;
+    }
+    
+    div.pricing{
+    	width:100%;
+    	margin:0;
+    }	
+    div.pricing .professional{
+    	margin-top: 0;
+    }
+    
+    div.pricing ul li{
+    	font-size: 1.6rem;
+    	display:inline-block;
+    	width:auto;
+    	padding:3px 10px;
+     	margin:3px;
+     	background-color:#f1f1f1;
+     	border-radius:3px;
+    }
+    
+    div.pricing .professional ul li{color:#222}
+      div.pricing .basic, div.pricing .professional, div.pricing .alacarte{
+background-color: transparent;
+    }
+     div.pricing .professional h4{color:#444;}
+     section.letstalk .process h2{font-size:3rem; margin:0;padding:0 10px; float:left; width:150px}
+    section.letstalk .process h2 i{font-size:4rem; width:70px; height:60px;}
+    section.letstalk .process p{font-size:1.5rem; padding:0; float:left; width:250px; text-align:left; margin:0;}
+    .process .span3{clear:both; padding:0;
+	
+     display:block;
+     padding:30px 5px;
+     }
+    hr{display: none}
+     section.form h3{padding:0 25px; text-align:center; line-height:1.5;}  
+    section.form .details h3{font-size:8rem}
+    section.form .details ul li{ text-align:center; font-size:2rem}
+}
+
+
+
+
+@media screen and (max-width:320px){
+	html{font-size:50%}
+	section.home span{width:95%;}
+	section.home span i{ font-size: 2rem;}
+	section.home h1{font-size:4rem; line-height:46px;}
+	.header h1{padding:0; line-height:50px;}
+	section.home h2{font-size:10rem; line-height:85px;}
+	section.letstalk p{font-size:2.5rem}
+	.devices{display:none}
+	.box.whoweare p{font-size:2rem;padding:10px 20px}
+	 div.pricing .basic, div.pricing .professional, div.pricing .alacarte{
+background-color: transparent;
+    }
+    div.pricing .professional h4{color:#333}
+    div.pricing ul li{font-size:1.6rem}
+    section.letstalk button.btn{font-size:2.2rem; padding:3px 10px;}
+    section.letstalk .process h2{font-size:4rem; margin:0;padding:0;float:none; width:auto}
+    section.letstalk .process h2 i{font-size:6rem;}
+    section.letstalk .process p{font-size:2rem; padding:0 15px; float:none; text-align:center; width:auto}
+    section.form h3{padding:0 25px; text-align:center; line-height:1.5;}  
+    section.form .details h3{font-size:8rem}
+    section.form .details ul li{ text-align:center; font-size:2rem}
+}
